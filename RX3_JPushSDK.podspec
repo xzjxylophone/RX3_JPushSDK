@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "RX3_JPushSDK"
-  s.version  = "2.1.0.2"
+  s.version  = "2.1.0.3"
   s.license  = "MIT"
   s.summary  = "RX3_JPushSDK is a JPush sdk"
   s.homepage = "https://github.com/xzjxylophone/RX3_JPushSDK"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.libraries = 'z'
   s.platform = :ios, '7.0'
-  s.vendored_libraries = 'RX3_JPushSDK/sdk/*.a'
+  s.vendored_frameworks = 'RX3_JPushSDK/sdk/*.a'
 end
 
 
